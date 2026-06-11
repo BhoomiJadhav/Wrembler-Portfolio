@@ -1,18 +1,44 @@
-import FadeIn from '../components/FadeIn';
-import ContactButton from '../components/ContactButton';
-import AnimatedText from '../components/AnimatedText';
+import FadeIn from "../components/FadeIn";
+import ContactButton from "../components/ContactButton";
+import AnimatedText from "../components/AnimatedText";
 
 const decorImages = {
-  moon: 'https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/moon_icon.11395d36.png',
+  moon: "https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/moon_icon.11395d36.png",
   object3d:
-    'https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/p59_1.4659672e.png',
-  lego: 'https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/lego_icon-1.703bb594.png',
+    "https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/p59_1.4659672e.png",
+  lego: "https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/lego_icon-1.703bb594.png",
   group:
-    'https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/Group_134-1.2e04f3ce.png',
+    "https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/Group_134-1.2e04f3ce.png",
 };
 
-const aboutText =
-  "Wrembler is a freelancing studio founded by Bhoomi Jadhav, dedicated to helping businesses grow online. From stunning websites and social media content to ad banners, SEO, and ongoing digital support — we craft work that attracts customers and builds lasting impressions. Let's create something incredible together!";
+const aboutText = `
+Hi, we're Wrembler.
+
+Most businesses don't need more content.
+They need clarity.
+
+A website that feels professional.
+Designs that people enjoy using.
+SEO that helps them get discovered.
+Creative visuals that make them stand out.
+
+We don't sell websites.
+Anyone can build pages.
+
+We build brands.
+
+We help businesses tell their story, shape their identity, and create digital experiences people trust. From strategic design and thoughtful UX to SEO optimization, maintenance, and creative campaigns, we make your brand impossible to ignore.
+
+We listen first.
+Build second.
+Obsess over the details others overlook.
+
+Trends come and go.
+Good experiences don't.
+
+Beautiful? Absolutely.
+Effective? Even more.
+`;
 
 export default function AboutSection() {
   return (
@@ -56,7 +82,7 @@ export default function AboutSection() {
         <FadeIn delay={0} y={40}>
           <h2
             className="hero-heading text-center font-black uppercase leading-none tracking-tight"
-            style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
+            style={{ fontSize: "clamp(3rem, 12vw, 160px)" }}
           >
             About us
           </h2>
@@ -65,8 +91,8 @@ export default function AboutSection() {
         <div className="flex flex-col items-center gap-16 sm:gap-20 md:gap-24">
           <AnimatedText
             text={aboutText}
-            className="max-w-[560px] text-center font-medium leading-relaxed text-[#D7E2EA]"
-            style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' }}
+            className="max-w-[560px] text-center font-medium leading-relaxed text-[#D7E2EA] whitespace-pre-line"
+            style={{ fontSize: "clamp(1rem, 2vw, 1.35rem)" }}
           />
 
           <div id="contact">

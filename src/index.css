@@ -14,12 +14,12 @@ html,
 body,
 #root {
   background-color: #0c0c0c;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .hero-heading {
   background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: ghostwhite;
   background-clip: text;
 }
