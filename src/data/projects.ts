@@ -12,6 +12,7 @@ export interface Project {
 import modakalay from "../assets/modakalay.png";
 import restaurantweb from "../assets/restaurantweb.png";
 import lumiere from "../assets/lumiere.png";
+import landingpage from "../assets/landingpage.png";
 
 export const projects: Project[] = [
   {
@@ -27,9 +28,20 @@ export const projects: Project[] = [
   },
   {
     number: "02",
+    name: "Landing Page",
+    category: "personal",
+    href: "https://bhoomijadhav.github.io/Landing-Page/",
+    images: {
+      col1Top: landingpage,
+      col1Bottom: landingpage,
+      col2: landingpage,
+    },
+  },
+  {
+    number: "03",
     name: "Restaurant Booking Website",
     category: "personal",
-    href: "https://www.instagram.com/wrembler.studios/",
+    href: "https://noirvine.lovable.app/",
     images: {
       col1Top: restaurantweb,
       col1Bottom: restaurantweb,
@@ -37,7 +49,7 @@ export const projects: Project[] = [
     },
   },
   {
-    number: "03",
+    number: "04",
     name: "Brand Launch Digital",
     category: "Personal",
     href: "#",
@@ -50,7 +62,7 @@ export const projects: Project[] = [
     },
   },
   {
-    number: "04",
+    number: "05",
     name: "Lumiere",
     category: "Personal",
     href: "https://sparkle-softly-studio.lovable.app/",

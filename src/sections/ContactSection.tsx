@@ -31,7 +31,7 @@ const contactLinks = [
   {
     label: "Instagram",
     value: "@wrembler",
-    href: "https://instagram.com/wrembler",
+    href: "https://www.instagram.com/wrembler.studios/",
     icon: (
       <svg
         width="22"
@@ -52,7 +52,7 @@ const contactLinks = [
   {
     label: "LinkedIn",
     value: "Bhoomi Jadhav",
-    href: "https://linkedin.com/in/bhoomijadhav",
+    href: "https://www.linkedin.com/in/bhoomi-jadhav/",
     icon: (
       <svg
         width="22"
@@ -72,7 +72,7 @@ const contactLinks = [
   {
     label: "Portfolio",
     value: "wrembler.studio",
-    href: "https://wrembler.studio",
+    href: "https://wrembler-portfolio.vercel.app/",
     icon: (
       <svg
         width="22"
